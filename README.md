@@ -54,3 +54,6 @@ Three metrics were used to evaluate model performance:
 2. **Pearson Correlation Coefficient (PCC)**
 
 3. **Accuracy:**
+
+
+![Alt Text](https://github.com/bioclick/Anticancer_drug_design/blob/main/workflow.png)
