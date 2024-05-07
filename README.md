@@ -7,8 +7,6 @@ The drug combination data used in this study were sourced from DrugComb, DrugCom
 ### About the Data
 
 To evaluate the synergy scores of drug combinations, four different metrics were used:
-
-=======
 The drug combination data used in this study were sourced from DrugComb, DrugCombDB, and SYNERGxDB. The dataset covers 19 tissue types, with the majority of data concentrated in seven types: skin, lung, breast, ovarian, brain, kidney, and colon.
 
 ### About the Data
@@ -88,11 +86,7 @@ Three metrics were used to evaluate model performance:
 
 # Workflow
 
-![Alt Text](https://github.com/bioclick/Anticancer_drug_design/blob/main/workflow.png)
-
-### The output is the synergy level determined using drug names and cell line names as input, based on the ZIP and Bliss metrics.
-
-![Alt Text](https://github.com/bioclick/Anticancer_drug_design/blob/main/workflow.png)
+![Alt Text](https://github.com/bioclick/Anticancer_drug_design/blob/main/drug_workflow.png)
 
 ### The output is the synergy level determined using drug names and cell line names as input, based on the ZIP and Bliss metrics.
 
