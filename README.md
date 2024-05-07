@@ -57,3 +57,19 @@ Three metrics were used to evaluate model performance:
 
 # Workflow
 ![Alt Text](https://github.com/bioclick/Anticancer_drug_design/blob/main/workflow.png)
+
+
+### The output is the synergy level determined using drug names and cell line names as input, based on the ZIP and Bliss metrics.
+
+| Drug_1 | Drug_2 | Cell_line_name | Drug_1_cid | Drug_2_cid | DepMap_ID | ZIP | Bliss |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Lapatinib Ditosylate (Tykerb) | Pazopanib hydrochloride | SUM-102PT | 9941095 | 11525740 | ACH-001388 | 32.899 | 60.42 |
+| Venetoclax (ABT-199) | Vincristine | SUM-102PT | 49846579 | 5978 | ACH-001388 | 31.121 | 30.944 |
+| Lapatinib Ditosylate (Tykerb) | Pazopanib hydrochloride | HCC1395 | 9941095 | 11525740 | ACH-000699 | 4.687 | 0.704 |
+| Venetoclax (ABT-199) | Vincristine | HCC1395 | 49846579 | 5978 | ACH-000699 | 9.282 | 5.284 |
+| Lapatinib Ditosylate (Tykerb) | Pazopanib hydrochloride | UACC-893 | 9941095 | 11525740 | ACH-000554 | 13.59 | 30.787 |
+| Venetoclax (ABT-199) | Vincristine | UACC-893 | 49846579 | 5978 | ACH-000554 | 7.393 | 10.184 |
+| Lapatinib Ditosylate (Tykerb) | Pazopanib hydrochloride | Du4475 | 9941095 | 11525740 | ACH-000258 | 8.056 | 11.08 |
+| Venetoclax (ABT-199) | Vincristine | Du4475 | 49846579 | 5978 | ACH-000258 | 5.27 | 4.266 |
+| Lapatinib Ditosylate (Tykerb) | Pazopanib hydrochloride | HCC1143 | 9941095 | 11525740 | ACH-000374 | -2.979 | 12.168 |
+| Venetoclax (ABT-199) | Vincristine | HCC1143 | 49846579 | 5978 | ACH-000374 | -2.481 | -0.592 |
